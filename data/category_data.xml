@@ -1,0 +1,223 @@
+<odoo>
+    <!-- Ana Kategoriler -->
+    <record id="category_periodic_inspections" model="product.public.category">
+        <field name="name">Periyodik Kontroller</field>
+    </record>
+
+    <record id="category_occupational_hygiene" model="product.public.category">
+        <field name="name">İş Hijyeni Laboratuvarı</field>
+    </record>
+
+    <record id="category_engineering_services" model="product.public.category">
+        <field name="name">Mühendislik Hizmetleri</field>
+    </record>
+
+    <!-- Periyodik Kontroller Alt Kategoriler -->
+    <record id="category_machine_group" model="product.public.category">
+        <field name="name">Makine Grubu</field>
+        <field name="parent_id" ref="category_periodic_inspections"/>
+    </record>
+
+    <record id="category_electric_group" model="product.public.category">
+        <field name="name">Elektrik Grubu</field>
+        <field name="parent_id" ref="category_periodic_inspections"/>
+    </record>
+
+    <record id="category_installation_group" model="product.public.category">
+        <field name="name">Tesisat Grubu</field>
+        <field name="parent_id" ref="category_periodic_inspections"/>
+    </record>
+
+    <!-- Makine Grubu Alt Başlıkları -->
+    <record id="subcategory_lifting_transport" model="product.public.category">
+        <field name="name">Kaldırma İletme Ekipmanları</field>
+        <field name="parent_id" ref="category_machine_group"/>
+    </record>
+
+    <record id="subcategory_pressure_vessels" model="product.public.category">
+        <field name="name">Basınçlı Kaplar</field>
+        <field name="parent_id" ref="category_machine_group"/>
+    </record>
+
+    <record id="subcategory_machine_tools" model="product.public.category">
+        <field name="name">Makine Tezgahları</field>
+        <field name="parent_id" ref="category_machine_group"/>
+    </record>
+
+    <record id="subcategory_construction_machines" model="product.public.category">
+        <field name="name">İş Makineleri</field>
+        <field name="parent_id" ref="category_machine_group"/>
+    </record>
+
+    <record id="subcategory_industrial_shelves" model="product.public.category">
+        <field name="name">Endüstriyel Raf Sistemleri</field>
+        <field name="parent_id" ref="category_machine_group"/>
+    </record>
+
+    <record id="subcategory_industrial_doors" model="product.public.category">
+        <field name="name">Endüstriyel Kapılar</field>
+        <field name="parent_id" ref="category_machine_group"/>
+    </record>
+
+    <record id="subcategory_hook_lifting" model="product.public.category">
+        <field name="name">Kanca Altı Kaldırma Ekipmanları</field>
+        <field name="parent_id" ref="category_machine_group"/>
+    </record>
+
+    <!-- Elektrik Grubu Alt Başlıkları -->
+    <record id="subcategory_grounding_measurements" model="product.public.category">
+        <field name="name">Topraklama Ölçümleri</field>
+        <field name="parent_id" ref="category_electric_group"/>
+    </record>
+
+    <record id="subcategory_electric_installation" model="product.public.category">
+        <field name="name">Elektrik İç Tesisat Uygunluk</field>
+        <field name="parent_id" ref="category_electric_group"/>
+    </record>
+
+    <record id="subcategory_lightning_protection" model="product.public.category">
+        <field name="name">Paratoner Yıldırımdan Korunma</field>
+        <field name="parent_id" ref="category_electric_group"/>
+    </record>
+
+    <record id="subcategory_lightning_area_calculation" model="product.public.category">
+        <field name="name">Paratoner Etki Alanı Hesabı Çizimi</field>
+        <field name="parent_id" ref="category_electric_group"/>
+    </record>
+
+    <record id="subcategory_residual_current" model="product.public.category">
+        <field name="name">Kaçak Artık Akım Rolesi</field>
+        <field name="parent_id" ref="category_electric_group"/>
+    </record>
+
+    <record id="subcategory_panel_visual_function" model="product.public.category">
+        <field name="name">Pano Görsel-Fonksiyon</field>
+        <field name="parent_id" ref="category_electric_group"/>
+    </record>
+
+    <record id="subcategory_panel_thermography" model="product.public.category">
+        <field name="name">Pano Termografi</field>
+        <field name="parent_id" ref="category_electric_group"/>
+    </record>
+
+    <record id="subcategory_generator" model="product.public.category">
+        <field name="name">Jeneratör</field>
+        <field name="parent_id" ref="category_electric_group"/>
+    </record>
+
+    <record id="subcategory_cathodic_protection" model="product.public.category">
+        <field name="name">Katodik Koruma Ölçümleri</field>
+        <field name="parent_id" ref="category_electric_group"/>
+    </record>
+
+    <!-- Tesisat Grubu Alt Başlıkları -->
+    <record id="subcategory_fire_installation" model="product.public.category">
+        <field name="name">Yangın Tesisatı</field>
+        <field name="parent_id" ref="category_installation_group"/>
+    </record>
+
+    <record id="subcategory_ventilation_installation" model="product.public.category">
+        <field name="name">Havalandırma Tesisatı</field>
+        <field name="parent_id" ref="category_installation_group"/>
+    </record>
+
+    <record id="subcategory_detection_alarm" model="product.public.category">
+        <field name="name">Algılama Alarm Sistemleri</field>
+        <field name="parent_id" ref="category_installation_group"/>
+    </record>
+
+    <!-- İş Hijyeni Laboratuvarı Alt Kategoriler -->
+    <record id="category_physical_factors" model="product.public.category">
+        <field name="name">Fiziksel Etkenler</field>
+        <field name="parent_id" ref="category_occupational_hygiene"/>
+    </record>
+
+    <record id="category_chemical_factors" model="product.public.category">
+        <field name="name">Kimyasal Etkenler</field>
+        <field name="parent_id" ref="category_occupational_hygiene"/>
+    </record>
+
+    <!-- Fiziksel Etkenler Alt Başlıkları -->
+    <record id="subcategory_lighting_measurement" model="product.public.category">
+        <field name="name">Aydınlatma Ölçümü</field>
+        <field name="parent_id" ref="category_physical_factors"/>
+    </record>
+
+    <record id="subcategory_personal_noise" model="product.public.category">
+        <field name="name">Kişisel Gürültü Maruziyeti Ölçümü</field>
+        <field name="parent_id" ref="category_physical_factors"/>
+    </record>
+
+    <record id="subcategory_environmental_noise" model="product.public.category">
+        <field name="name">Ortam Gürültü Ölçümü</field>
+        <field name="parent_id" ref="category_physical_factors"/>
+    </record>
+
+    <record id="subcategory_thermal_comfort" model="product.public.category">
+        <field name="name">Termal Konfor Ölçümü</field>
+        <field name="parent_id" ref="category_physical_factors"/>
+    </record>
+
+    <record id="subcategory_vibration_exposure" model="product.public.category">
+        <field name="name">El Kol Tüm Vücut Titreşim Maruziyeti Ölçümü</field>
+        <field name="parent_id" ref="category_physical_factors"/>
+    </record>
+
+    <record id="subcategory_electromagnetic_field" model="product.public.category">
+        <field name="name">Elektromanyetik Alan Ölçümü</field>
+        <field name="parent_id" ref="category_physical_factors"/>
+    </record>
+
+    <!-- Kimyasal Etkenler Alt Başlıkları -->
+    <record id="subcategory_total_dust" model="product.public.category">
+        <field name="name">Toplam Toz Numune Alma ve Analiz</field>
+        <field name="parent_id" ref="category_chemical_factors"/>
+    </record>
+
+    <record id="subcategory_respirable_dust" model="product.public.category">
+        <field name="name">Solunabilir Toz Numune Alma ve Analiz</field>
+        <field name="parent_id" ref="category_chemical_factors"/>
+    </record>
+
+    <record id="subcategory_gas_vapor" model="product.public.category">
+        <field name="name">Gaz ve Buhar Konsantrasyon Ölçümü</field>
+        <field name="parent_id" ref="category_chemical_factors"/>
+    </record>
+
+    <record id="subcategory_volatile_organic" model="product.public.category">
+        <field name="name">Uçucu Organik Bileşik VOC Numune Alma ve Analiz</field>
+        <field name="parent_id" ref="category_chemical_factors"/>
+    </record>
+
+    <record id="subcategory_heavy_metal" model="product.public.category">
+        <field name="name">Ağır Metal Numune Alma ve Analiz</field>
+        <field name="parent_id" ref="category_chemical_factors"/>
+    </record>
+
+    <record id="subcategory_personal_gas_exposure" model="product.public.category">
+        <field name="name">Kişisel Gaz Maruziyeti Ölçümü</field>
+        <field name="parent_id" ref="category_chemical_factors"/>
+    </record>
+
+    <record id="subcategory_acid_concentration" model="product.public.category">
+        <field name="name">Asit Konsantrasyon Ölçümü</field>
+        <field name="parent_id" ref="category_chemical_factors"/>
+    </record>
+
+    <!-- Mühendislik Hizmetleri Alt Kategoriler -->
+    <record id="category_explosion_protection" model="product.public.category">
+        <field name="name">Patlamadan Korunma Dokümantasyonu</field>
+        <field name="parent_id" ref="category_engineering_services"/>
+    </record>
+
+    <record id="category_static_analysis" model="product.public.category">
+        <field name="name">Statik Analiz</field>
+        <field name="parent_id" ref="category_engineering_services"/>
+    </record>
+
+    <record id="category_installation_project_evaluation" model="product.public.category">
+        <field name="name">Tesisat Proje Değerlendirme</field>
+        <field name="parent_id" ref="category_engineering_services"/>
+    </record>
+</odoo>
+
