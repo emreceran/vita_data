@@ -1,19 +1,22 @@
 # -*- coding: utf-8 -*-
 
-# from odoo import models, fields, api
+
+from odoo import models, fields
+from odoo.tools.translate import html_translate
+
+class ProductTemplate(models.Model):
+    _inherit = 'product.template'
 
 
-# class vita_data(models.Model):
-#     _name = 'vita_data.vita_data'
-#     _description = 'vita_data.vita_data'
+    accordion_content_html = fields.Html("Accordion Content", sanitize_overridable=True, sanitize_attributes=False, translate=html_translate, sanitize_form=False)
+    custom_description_html = fields.Html('Product Description', sanitize_overridable=True, sanitize_attributes=False, translate=html_translate, sanitize_form=False)
+    related_products_html = fields.Html('Related Products', sanitize_overridable=True, sanitize_attributes=False, translate=html_translate, sanitize_form=False)
 
-#     name = fields.Char()
-#     value = fields.Integer()
-#     value2 = fields.Float(compute="_value_pc", store=True)
-#     description = fields.Text()
-#
-#     @api.depends('value')
-#     def _value_pc(self):
-#         for record in self:
-#             record.value2 = float(record.value) / 100
 
+
+class ProductPublicCategory(models.Model):
+    _inherit = "product.public.category"
+
+
+
+    website_description2 = fields.Html('Category Description2', sanitize_overridable=True, sanitize_attributes=False, translate=html_translate, sanitize_form=False)
