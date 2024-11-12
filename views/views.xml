@@ -10,6 +10,13 @@
             <xpath expr="//page[@name='sales']/group[@name='sale']" position="inside">
                 <group string="eCommerce Shop" name="desc" invisible="not sale_ok">
                     <field name="custom_description_html"/>
+                    <field name="faq_question1"/>
+                    <field name="faq_answer1"/>
+                    <field name="faq_question2"/>
+                    <field name="faq_answer2"/>
+                    <field name="faq_question3"/>
+                    <field name="faq_answer3"/>
+                    
 
                 </group>
 
