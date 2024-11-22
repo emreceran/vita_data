@@ -5,8 +5,7 @@
         <field name="model">product.template</field>
         <field name="inherit_id" ref="website_sale.product_template_form_view"/>
         <field name="arch" type="xml">
-            <!-- add state field in header -->
-
+            <!-- eCommerce sekmesine ek alanlar -->
             <xpath expr="//page[@name='sales']/group[@name='sale']" position="inside">
                 <group string="eCommerce Shop" name="desc" invisible="not sale_ok">
                     <field name="custom_description_html"/>
@@ -16,15 +15,14 @@
                     <field name="faq_answer2"/>
                     <field name="faq_question3"/>
                     <field name="faq_answer3"/>
-                    
-
+                    <field name="img_2" widget="image" class="oe_avatar" />
                 </group>
-
             </xpath>
-
-
         </field>
     </record>
+
+   
+
 
     <record id="vita_data_categori_view" model="ir.ui.view">
         <field name="name">vita.product.public.category.form</field>
