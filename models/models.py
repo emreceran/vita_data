@@ -16,11 +16,17 @@ class ProductTemplate(models.Model):
     faq_answer2 = fields.Html('Sıkça Sorulan Soru 2 Cevabı', sanitize_overridable=True, translate=True)
     faq_question3 = fields.Html('Sıkça Sorulan Soru 3', sanitize_overridable=True, translate=True)
     faq_answer3 = fields.Html('Sıkça Sorulan Soru 3 Cevabı', sanitize_overridable=True, translate=True)
+    img_2 = fields.Binary(
+        string="Detail Image",
+        attachment=True,
+        help="Extra image for the product"
+    )
+
 
 
 class ProductPublicCategory(models.Model):
     _inherit = "product.public.category"
 
-
-
     website_description2 = fields.Html('Category Description2', sanitize_overridable=True, sanitize_attributes=False, translate=html_translate, sanitize_form=False)
+
+    
