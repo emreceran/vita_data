@@ -65,7 +65,7 @@
     </record>
 
     <!-- Elektrik Grubu Alt Başlıkları -->
-    <record id="subcategory_grounding_measurements" model="product.public.category">
+    <!-- <record id="subcategory_grounding_measurements" model="product.public.category">
         <field name="name">Topraklama Ölçümleri</field>
         <field name="parent_id" ref="category_electric_group"/>
     </record>
@@ -108,7 +108,7 @@
     <record id="subcategory_cathodic_protection" model="product.public.category">
         <field name="name">Katodik Koruma Ölçümleri</field>
         <field name="parent_id" ref="category_electric_group"/>
-    </record>
+    </record> -->
 
     <!-- Tesisat Grubu Alt Başlıkları -->
     <record id="subcategory_fire_installation" model="product.public.category">
@@ -138,7 +138,7 @@
     </record>
 
     <!-- Fiziksel Etkenler Alt Başlıkları -->
-    <record id="subcategory_lighting_measurement" model="product.public.category">
+    <!-- <record id="subcategory_lighting_measurement" model="product.public.category">
         <field name="name">Aydınlatma Ölçümü</field>
         <field name="parent_id" ref="category_physical_factors"/>
     </record>
@@ -166,10 +166,10 @@
     <record id="subcategory_electromagnetic_field" model="product.public.category">
         <field name="name">Elektromanyetik Alan Ölçümü</field>
         <field name="parent_id" ref="category_physical_factors"/>
-    </record>
+    </record> -->
 
     <!-- Kimyasal Etkenler Alt Başlıkları -->
-    <record id="subcategory_total_dust" model="product.public.category">
+    <!-- <record id="subcategory_total_dust" model="product.public.category">
         <field name="name">Toplam Toz Numune Alma ve Analiz</field>
         <field name="parent_id" ref="category_chemical_factors"/>
     </record>
@@ -202,7 +202,7 @@
     <record id="subcategory_acid_concentration" model="product.public.category">
         <field name="name">Asit Konsantrasyon Ölçümü</field>
         <field name="parent_id" ref="category_chemical_factors"/>
-    </record>
+    </record> -->
 
     <!-- Mühendislik Hizmetleri Alt Kategoriler -->
     <record id="category_explosion_protection" model="product.public.category">
@@ -220,4 +220,3 @@
         <field name="parent_id" ref="category_engineering_services"/>
     </record>
 </odoo>
-

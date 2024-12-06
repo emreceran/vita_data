@@ -1,7 +1,7 @@
 <odoo>
     <!-- 2.A.1. KALDIRMA İLETME EKİPMANLARI -->
     <record id="product_gezer_koprulu_vinc" model="product.template">
-        <field name="name">Gezer Köprülü Vinç</field>
+        <field name="name">Gezer Köprülü Vinç Periyodik Kontrolleri</field>
         <field name="type">service</field>
         <field name="list_price">0.0</field>
         <field name="sale_ok">True</field>
@@ -9,7 +9,7 @@
         <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_lifting_transport')])]"/>
     </record>
     <record id="product_pergel_vinc" model="product.template">
-        <field name="name">Pergel Vinç</field>
+        <field name="name">Pergel Vinç Periyodik Kontrolleri</field>
         <field name="type">service</field>
         <field name="list_price">0.0</field>
         <field name="sale_ok">True</field>
@@ -17,7 +17,7 @@
         <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_lifting_transport')])]"/>
     </record>
     <record id="product_portal_vinc" model="product.template">
-        <field name="name">Portal Vinç</field>
+        <field name="name">Portal Vinç Periyodik Kontrolleri</field>
         <field name="type">service</field>
         <field name="list_price">0.0</field>
         <field name="sale_ok">True</field>
@@ -25,7 +25,7 @@
         <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_lifting_transport')])]"/>
     </record>
     <record id="product_monoray_vinc" model="product.template">
-        <field name="name">Monoray Vinç</field>
+        <field name="name">Monoray Vinç Periyodik Kontrolleri</field>
         <field name="type">service</field>
         <field name="list_price">0.0</field>
         <field name="sale_ok">True</field>
@@ -33,7 +33,7 @@
         <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_lifting_transport')])]"/>
     </record>
     <record id="product_mobil_vinc" model="product.template">
-        <field name="name">Mobil Vinç</field>
+        <field name="name">Mobil Vinç Periyodik Kontrolleri</field>
         <field name="type">service</field>
         <field name="list_price">0.0</field>
         <field name="sale_ok">True</field>
@@ -41,7 +41,7 @@
         <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_lifting_transport')])]"/>
     </record>
     <record id="product_doner_kollu_vinc" model="product.template">
-        <field name="name">Döner Kollu Vinç</field>
+        <field name="name">Döner Kollu Vinç Periyodik Kontrolleri</field>
         <field name="type">service</field>
         <field name="list_price">0.0</field>
         <field name="sale_ok">True</field>
@@ -49,7 +49,7 @@
         <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_lifting_transport')])]"/>
     </record>
     <record id="product_kule_vinc" model="product.template">
-        <field name="name">Kule Vinç</field>
+        <field name="name">Kule Vinç Periyodik Kontrolleri</field>
         <field name="type">service</field>
         <field name="list_price">0.0</field>
         <field name="sale_ok">True</field>
@@ -57,7 +57,7 @@
         <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_lifting_transport')])]"/>
     </record>
     <record id="product_forklift" model="product.template">
-        <field name="name">Forklift</field>
+        <field name="name">Forklift Periyodik Kontrolleri</field>
         <field name="type">service</field>
         <field name="list_price">0.0</field>
         <field name="sale_ok">True</field>
@@ -65,7 +65,7 @@
         <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_lifting_transport')])]"/>
     </record>
     <record id="product_istif_makinesi" model="product.template">
-        <field name="name">İstif Makinesi</field>
+        <field name="name">İstif Makinesi Periyodik Kontrolleri</field>
         <field name="type">service</field>
         <field name="list_price">0.0</field>
         <field name="sale_ok">True</field>
@@ -73,7 +73,95 @@
         <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_lifting_transport')])]"/>
     </record>
     <record id="product_kriko" model="product.template">
-        <field name="name">Kriko</field>
+        <field name="name">Kriko Periyodik Kontrolleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_lifting_transport')])]"/>
+    </record>
+    <record id="product_lift_tasit_kaldirma_donanimi" model="product.template">
+        <field name="name">Lift - Taşıt Kaldırma Donanımı Periyodik Kontrolleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_lifting_transport')])]"/>
+    </record>
+    <record id="product_transpalet" model="product.template">
+        <field name="name">Transpalet Periyodik Kontrolleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_lifting_transport')])]"/>
+    </record>
+    <record id="product_caraskal" model="product.template">
+        <field name="name">Caraskal Periyodik Kontrolleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_lifting_transport')])]"/>
+    </record>
+    <record id="product_sabit_inis_mahalline_hizmet_veren_makine" model="product.template">
+        <field name="name">Sabit İniş Mahalline Hizmet Veren Makine Periyodik Kontrolleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_lifting_transport')])]"/>
+    </record>
+    <record id="product_sutunlu_calisma_platformu" model="product.template">
+        <field name="name">Sütunlu Çalışma Platformu Periyodik Kontrolleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_lifting_transport')])]"/>
+    </record>
+    <record id="product_insaat_asansoru" model="product.template">
+        <field name="name">İnşaat Asansörü Periyodik Kontrolleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_lifting_transport')])]"/>
+    </record>
+    <record id="product_yukseltilebilen_seyyar_is_platformu" model="product.template">
+        <field name="name">Yükseltilebilen Seyyar İş Platformu Periyodik Kontrolleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_lifting_transport')])]"/>
+    </record>
+    <record id="product_hareketli_rampa" model="product.template">
+        <field name="name">Hareketli Rampa Periyodik Kontrolleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_lifting_transport')])]"/>
+    </record>
+    <record id="product_zincirli_cektirme_hubzug" model="product.template">
+        <field name="name">Zincirli Çektirme Hubzug Periyodik Kontrolleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_lifting_transport')])]"/>
+    </record>
+    <record id="product_halatli_cektirme_trifor" model="product.template">
+        <field name="name">Halatlı Çektirme Trifor Periyodik Kontrolleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_lifting_transport')])]"/>
+    </record>
+    <record id="product_konveyör_bant_sistemi" model="product.template">
+        <field name="name">Konveyör Bant Sistemi Periyodik Kontrolleri</field>
         <field name="type">service</field>
         <field name="list_price">0.0</field>
         <field name="sale_ok">True</field>
@@ -83,7 +171,7 @@
 
     <!-- Basınçlı Kaplar Alt Kategorisi -->
     <record id="product_kompresor_hava_tanki" model="product.template">
-        <field name="name">Kompresör - Hava Tankı</field>
+        <field name="name">Kompresör - Hava Tankı Periyodik Kontrolleri</field>
         <field name="type">service</field>
         <field name="list_price">0.0</field>
         <field name="sale_ok">True</field>
@@ -91,7 +179,7 @@
         <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_pressure_vessels')])]"/>
     </record>
     <record id="product_kalorifer_kazani" model="product.template">
-        <field name="name">Kalorifer Kazanı</field>
+        <field name="name">Kalorifer Kazanı Periyodik Kontrolleri</field>
         <field name="type">service</field>
         <field name="list_price">0.0</field>
         <field name="sale_ok">True</field>
@@ -99,7 +187,7 @@
         <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_pressure_vessels')])]"/>
     </record>
     <record id="product_buhar_kazani" model="product.template">
-        <field name="name">Buhar Kazanı</field>
+        <field name="name">Buhar Kazanı Periyodik Kontrolleri</field>
         <field name="type">service</field>
         <field name="list_price">0.0</field>
         <field name="sale_ok">True</field>
@@ -107,7 +195,55 @@
         <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_pressure_vessels')])]"/>
     </record>
     <record id="product_sicak_su_kazani" model="product.template">
-        <field name="name">Sıcak Su Kazanı</field>
+        <field name="name">Sıcak Su Kazanı Periyodik Kontrolleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_pressure_vessels')])]"/>
+    </record>
+    <record id="product_hidrofor_genlesme_tanki" model="product.template">
+        <field name="name">Hidrofor Genleşme Tankı Periyodik Kontrolleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_pressure_vessels')])]"/>
+    </record>
+    <record id="product_boyler_akumulasyon_tanki" model="product.template">
+        <field name="name">Boyler Akümülasyon Tankı Periyodik Kontrolleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_pressure_vessels')])]"/>
+    </record>
+    <record id="product_utu_kazani" model="product.template">
+        <field name="name">Ütü Kazanı Periyodik Kontrolleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_pressure_vessels')])]"/>
+    </record>
+    <record id="product_azot_tanki" model="product.template">
+        <field name="name">Azot Tankı Periyodik Kontrolleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_pressure_vessels')])]"/>
+    </record>
+    <record id="product_otoklav" model="product.template">
+        <field name="name">Otoklav Periyodik Kontrolleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_pressure_vessels')])]"/>
+    </record>
+    <record id="product_kizgin_yag_kazani" model="product.template">
+        <field name="name">Kızgın Yağ Kazanı Periyodik Kontrolleri</field>
         <field name="type">service</field>
         <field name="list_price">0.0</field>
         <field name="sale_ok">True</field>
@@ -117,7 +253,7 @@
 
     <!-- Makine Tezgahları Alt Kategorisi -->
     <record id="product_cnc_tezgahlari" model="product.template">
-        <field name="name">CNC Tezgahları</field>
+        <field name="name">CNC Tezgahları Periyodik Kontrolleri</field>
         <field name="type">service</field>
         <field name="list_price">0.0</field>
         <field name="sale_ok">True</field>
@@ -125,7 +261,7 @@
         <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_machine_tools')])]"/>
     </record>
     <record id="product_pres_tezgahlari" model="product.template">
-        <field name="name">Pres Tezgahları</field>
+        <field name="name">Pres Tezgahları Periyodik Kontrolleri</field>
         <field name="type">service</field>
         <field name="list_price">0.0</field>
         <field name="sale_ok">True</field>
@@ -133,7 +269,47 @@
         <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_machine_tools')])]"/>
     </record>
     <record id="product_torna_tezgahlari" model="product.template">
-        <field name="name">Torna Tezgahları</field>
+        <field name="name">Torna Tezgahları Periyodik Kontrolleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_machine_tools')])]" />
+    </record>
+    <record id="product_freze_tezgahlari" model="product.template">
+        <field name="name">Freze Tezgahları Periyodik Kontrolleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_machine_tools')])]" />
+    </record>
+    <record id="product_matkap_tezgahlari" model="product.template">
+        <field name="name">Matkap Tezgahları Periyodik Kontrolleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_machine_tools')])]" />
+    </record>
+    <record id="product_testere_tezgahlari" model="product.template">
+        <field name="name">Testere Tezgahları Periyodik Kontrolleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_machine_tools')])]" />
+    </record>
+    <record id="product_taslama_tezgahlari" model="product.template">
+        <field name="name">Taşlama Makineleri Periyodik Kontrolleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_machine_tools')])]" />
+    </record>
+    <record id="product_giyotin_tezgahlari" model="product.template">
+        <field name="name">Giyotin Makasları Periyodik Kontrolleri</field>
         <field name="type">service</field>
         <field name="list_price">0.0</field>
         <field name="sale_ok">True</field>
@@ -142,7 +318,7 @@
     </record>
 
     <!-- Makine Tezgahları Alt Kategorisi Devamı -->
-    <record id="product_freze_tezgahlari" model="product.template">
+    <!-- <record id="product_freze_tezgahlari" model="product.template">
         <field name="name">Freze Tezgahları</field>
         <field name="type">service</field>
         <field name="list_price">0.0</field>
@@ -181,11 +357,11 @@
         <field name="sale_ok">True</field>
         <field name="website_published">True</field>
         <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_machine_tools')])]"/>
-    </record>
+    </record> -->
 
     <!-- İş Makineleri Alt Kategorisi -->
     <record id="product_kazici_yukleyici_bekoloder" model="product.template">
-        <field name="name">Kazıcı Yükleyici Bekoloder</field>
+        <field name="name">Kazıcı Yükleyici Bekoloder Periyodik Kontrolleri</field>
         <field name="type">service</field>
         <field name="list_price">0.0</field>
         <field name="sale_ok">True</field>
@@ -193,7 +369,7 @@
         <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_construction_machines')])]"/>
     </record>
     <record id="product_damperli_kamyon" model="product.template">
-        <field name="name">Damperli Kamyon</field>
+        <field name="name">Damperli Kamyon Periyodik Kontrolleri</field>
         <field name="type">service</field>
         <field name="list_price">0.0</field>
         <field name="sale_ok">True</field>
@@ -201,7 +377,7 @@
         <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_construction_machines')])]"/>
     </record>
     <record id="product_yukleyici_loder" model="product.template">
-        <field name="name">Yükleyici Loder</field>
+        <field name="name">Yükleyici Loder Periyodik Kontrolleri</field>
         <field name="type">service</field>
         <field name="list_price">0.0</field>
         <field name="sale_ok">True</field>
@@ -209,7 +385,7 @@
         <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_construction_machines')])]"/>
     </record>
     <record id="product_sondaj_makinesi" model="product.template">
-        <field name="name">Sondaj Makinesi</field>
+        <field name="name">Sondaj Makineleri Periyodik Kontrolleri</field>
         <field name="type">service</field>
         <field name="list_price">0.0</field>
         <field name="sale_ok">True</field>
@@ -217,7 +393,71 @@
         <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_construction_machines')])]"/>
     </record>
     <record id="product_cekici_dozers" model="product.template">
-        <field name="name">Çekici Dozers</field>
+        <field name="name">Çekici Dozerler Periyodik Kontrolleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_construction_machines')])]"/>
+    </record>
+    <record id="product_greyder" model="product.template">
+        <field name="name">Greyder Periyodik Kontrolleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_construction_machines')])]"/>
+    </record>
+    <record id="product_asfaltlama_makineleri" model="product.template">
+        <field name="name">Asfaltlama Makineleri Periyodik Kontrolleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_construction_machines')])]"/>
+    </record>
+    <record id="product_toprak_ve_cop_sikistiricilar" model="product.template">
+        <field name="name">Toprak ve Çöp Sıkıştırıcılar Periyodik Kontrolleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_construction_machines')])]"/>
+    </record>
+    <record id="product_silindir" model="product.template">
+        <field name="name">Silindir Periyodik Kontrolleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_construction_machines')])]"/>
+    </record>
+    <record id="product_skreyper" model="product.template">
+        <field name="name">Skreyper Periyodik Kontrolleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_construction_machines')])]"/>
+    </record>
+    <record id="product_beton_tasima_ve_beton_puskurtme_makineleri" model="product.template">
+        <field name="name">Beton Taşıma ve Beton Püskürtme Makineleri Periyodik Kontrolleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_construction_machines')])]"/>
+    </record>
+    <record id="product_boru_döseyici_is_makineleri" model="product.template">
+        <field name="name">Boru Döşeyici İş Makineleri Periyodik Kontrolleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_construction_machines')])]"/>
+    </record>
+    <record id="product_trencerler" model="product.template">
+        <field name="name">Trençerler Periyodik Kontrolleri</field>
         <field name="type">service</field>
         <field name="list_price">0.0</field>
         <field name="sale_ok">True</field>
@@ -227,7 +467,7 @@
 
     <!-- Kanca Altı Kaldırma Ekipmanları Alt Kategorisi -->
     <record id="product_sapanlar" model="product.template">
-        <field name="name">Sapanlar Tekstil Zincir Halat</field>
+        <field name="name">Sapanlar Tekstil Zincir Halat Periyodik Kontrolleri</field>
         <field name="type">service</field>
         <field name="list_price">0.0</field>
         <field name="sale_ok">True</field>
@@ -235,7 +475,7 @@
         <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_hook_lifting')])]"/>
     </record>
     <record id="product_mapa" model="product.template">
-        <field name="name">Mapa</field>
+        <field name="name">Mapa Periyodik Kontrolleri</field>
         <field name="type">service</field>
         <field name="list_price">0.0</field>
         <field name="sale_ok">True</field>
@@ -243,7 +483,7 @@
         <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_hook_lifting')])]"/>
     </record>
     <record id="product_travers" model="product.template">
-        <field name="name">Travers</field>
+        <field name="name">Travers Periyodik Kontrolleri</field>
         <field name="type">service</field>
         <field name="list_price">0.0</field>
         <field name="sale_ok">True</field>
@@ -251,7 +491,7 @@
         <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_hook_lifting')])]"/>
     </record>
     <record id="product_sac_kaldirma" model="product.template">
-        <field name="name">Sac Kaldırma</field>
+        <field name="name">Sac Kaldırma Periyodik Kontrolleri</field>
         <field name="type">service</field>
         <field name="list_price">0.0</field>
         <field name="sale_ok">True</field>
@@ -259,7 +499,31 @@
         <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_hook_lifting')])]"/>
     </record>
     <record id="product_bosaltma_kovasi" model="product.template">
-        <field name="name">Boşaltma Kovası</field>
+        <field name="name">Boşaltma Kovası Periyodik Kontrolleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_hook_lifting')])]"/>
+    </record>
+    <record id="product_bigbag" model="product.template">
+        <field name="name">BigBag Periyodik Kontrolleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_hook_lifting')])]"/>
+    </record>
+    <record id="product_manyetik_miknatis" model="product.template">
+        <field name="name">Manyetik Mıknatıs Periyodik Kontrolleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_hook_lifting')])]"/>
+    </record>
+    <record id="product_kurt_agzi" model="product.template">
+        <field name="name">Kurtağzı Periyodik Kontrolleri</field>
         <field name="type">service</field>
         <field name="list_price">0.0</field>
         <field name="sale_ok">True</field>
@@ -268,8 +532,9 @@
     </record>
 
 
+
     <!-- Kanca Altı Kaldırma Ekipmanları Alt Kategorisi Devamı -->
-    <record id="product_bigbag" model="product.template">
+    <!-- <record id="product_bigbag" model="product.template">
         <field name="name">BigBag</field>
         <field name="type">service</field>
         <field name="list_price">0.0</field>
@@ -292,10 +557,10 @@
         <field name="sale_ok">True</field>
         <field name="website_published">True</field>
         <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_hook_lifting')])]"/>
-    </record>
+    </record> -->
 
     <!-- Basınçlı Kaplar Alt Kategorisi -->
-    <record id="product_kompresor_hava_tanki" model="product.template">
+    <!-- <record id="product_kompresor_hava_tanki" model="product.template">
         <field name="name">Kompresör - Hava Tankı</field>
         <field name="type">service</field>
         <field name="list_price">0.0</field>
@@ -334,6 +599,162 @@
         <field name="sale_ok">True</field>
         <field name="website_published">True</field>
         <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_pressure_vessels')])]"/>
+    </record> -->
+
+    <!-- Elektrik Grubu Kategorisi -->
+    <record id="product_topraklama_olcumleri" model="product.template">
+        <field name="name">Topraklama Ölçümleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('category_electric_group')])]"/>
+    </record>
+    <record id="product_elektrik_ic_tesisat_uygunluk" model="product.template">
+        <field name="name">Elektrik İç Tesisat Uygunluk</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('category_electric_group')])]"/>
+    </record>
+    <record id="product_paratoner_yildirimden_korunma" model="product.template">
+        <field name="name">Paratoner Yıldırımdan Korunma</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('category_electric_group')])]"/>
+    </record>
+    <record id="product_paratoner_etki_alani_hesabi_çizimi" model="product.template">
+        <field name="name">Paratoner Etki Alanı Hesabı Çizimi</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('category_electric_group')])]"/>
+    </record>
+    <record id="product_kacak_artik_akim_rolesi" model="product.template">
+        <field name="name">Kaçak Artık Akım Rolesi</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('category_electric_group')])]"/>
+    </record>
+    <record id="product_pano_gorsel_fonksiyon" model="product.template">
+        <field name="name">Pano Görsel-Fonksiyon</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('category_electric_group')])]"/>
+    </record>
+    <record id="product_pano_termografi" model="product.template">
+        <field name="name">Pano Termografi</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('category_electric_group')])]"/>
+    </record>
+    <record id="product_jenerator" model="product.template">
+        <field name="name">Jeneratör</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('category_electric_group')])]"/>
+    </record>
+    <record id="product_katodik_koruma" model="product.template">
+        <field name="name">Katodik Koruma Ölçümleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('category_electric_group')])]"/>
+    </record>
+
+    <!-- Yangın Tesisatı Alt Kategorisi -->
+    <record id="product_motor_performans_testi" model="product.template">
+        <field name="name">Motor Performans Testi</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_fire_installation')])]"/>
+    </record>
+    <record id="product_pompa_istasyon_dairesi" model="product.template">
+        <field name="name">Pompa İstasyon Dairesi Periyodik Kontrolleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_fire_installation')])]"/>
+    </record>
+    <record id="product_su_deposu" model="product.template">
+        <field name="name">Su Deposu Periyodik Kontrolleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_fire_installation')])]"/>
+    </record>
+    <record id="product_yangın_dolaplari" model="product.template">
+        <field name="name">Yangın Dolapları Periyodik Kontrolleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_fire_installation')])]"/>
+    </record>
+    <record id="product_hidrant_dolaplari" model="product.template">
+        <field name="name">Hidrant Dolapları Periyodik Kontrolleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_fire_installation')])]"/>
+    </record>
+    <record id="product_yagmurlama_sprinkler_sistemi" model="product.template">
+        <field name="name">Yağmurlama Sprinkler Sistemi Periyodik Kontrolleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_fire_installation')])]"/>
+    </record>
+    <record id="product_itfaiye_baglanti_agizlari" model="product.template">
+        <field name="name">İtfaiye Bağlantı Ağızları Periyodik Kontrolleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_fire_installation')])]"/>
+    </record>
+    <record id="product_otomatik_sondurme_sistemleri" model="product.template">
+        <field name="name">Otomatik Söndürme Sistemleri Periyodik Kontrolleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_fire_installation')])]"/>
+    </record>
+    <record id="product_acil_durum_aydinlatma_sistemleri" model="product.template">
+        <field name="name">Acil Durum Aydınlatma Sistemleri Periyodik Kontrolleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_fire_installation')])]"/>
+    </record>
+    <record id="product_portatif_yangin_sondurme_tupleri" model="product.template">
+        <field name="name">Portatif Yangın Söndürme Tüpleri Periyodik Kontrolleri</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_fire_installation')])]"/>
     </record>
 
     <!-- Fiziksel Etkenler Alt Kategorisi -->
@@ -343,7 +764,7 @@
         <field name="list_price">0.0</field>
         <field name="sale_ok">True</field>
         <field name="website_published">True</field>
-        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_lighting_measurement')])]"/>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('category_physical_factors')])]"/>
     </record>
     <record id="product_kisisel_gurultu_maruz" model="product.template">
         <field name="name">Kişisel Gürültü Maruziyeti Ölçümü</field>
@@ -351,7 +772,7 @@
         <field name="list_price">0.0</field>
         <field name="sale_ok">True</field>
         <field name="website_published">True</field>
-        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_personal_noise')])]"/>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('category_physical_factors')])]"/>
     </record>
     <record id="product_ortam_gurultu_olcumu" model="product.template">
         <field name="name">Ortam Gürültü Ölçümü</field>
@@ -359,7 +780,7 @@
         <field name="list_price">0.0</field>
         <field name="sale_ok">True</field>
         <field name="website_published">True</field>
-        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_environmental_noise')])]"/>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('category_physical_factors')])]"/>
     </record>
     <record id="product_termal_konfor_olcumu" model="product.template">
         <field name="name">Termal Konfor Ölçümü</field>
@@ -367,7 +788,7 @@
         <field name="list_price">0.0</field>
         <field name="sale_ok">True</field>
         <field name="website_published">True</field>
-        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_thermal_comfort')])]"/>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('category_physical_factors')])]"/>
     </record>
     <record id="product_el_kol_tum_vucut_titresim" model="product.template">
         <field name="name">El Kol Tüm Vücut Titreşim Maruziyeti Ölçümü</field>
@@ -375,7 +796,15 @@
         <field name="list_price">0.0</field>
         <field name="sale_ok">True</field>
         <field name="website_published">True</field>
-        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_vibration_exposure')])]"/>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('category_physical_factors')])]"/>
+    </record>
+    <record id="product_elektromanyetik_alan_olcumu" model="product.template">
+        <field name="name">Elektromnanyetik Alan Ölçümü</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('category_physical_factors')])]"/>
     </record>
 
     <!-- Kimyasal Etkenler Alt Kategorisi -->
@@ -385,7 +814,7 @@
         <field name="list_price">0.0</field>
         <field name="sale_ok">True</field>
         <field name="website_published">True</field>
-        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_total_dust')])]"/>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('category_chemical_factors')])]"/>
     </record>
     <record id="product_solunabilir_toz_numune" model="product.template">
         <field name="name">Solunabilir Toz Numune Alma ve Analiz</field>
@@ -393,7 +822,7 @@
         <field name="list_price">0.0</field>
         <field name="sale_ok">True</field>
         <field name="website_published">True</field>
-        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_respirable_dust')])]"/>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('category_chemical_factors')])]"/>
     </record>
     <record id="product_gaz_buhar_konsantrasyon" model="product.template">
         <field name="name">Gaz ve Buhar Konsantrasyon Ölçümü</field>
@@ -401,11 +830,43 @@
         <field name="list_price">0.0</field>
         <field name="sale_ok">True</field>
         <field name="website_published">True</field>
-        <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_gas_vapor')])]"/>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('category_chemical_factors')])]"/>
+    </record>
+     <record id="product_organik_bilesik_voc" model="product.template">
+        <field name="name">Uçucu Organik Bileşik VOC Numune Alma ve Analiz</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('category_chemical_factors')])]"/>
+    </record>
+    <record id="product_agir_metal_numune_alma" model="product.template">
+        <field name="name">Ağır Metal Numune Alma ve Analiz</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('category_chemical_factors')])]"/>
+    </record>
+    <record id="product_kisisel_gaz_maruziyeti" model="product.template">
+        <field name="name">Kişisel Gaz Maruziyeti Ölçümü</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('category_chemical_factors')])]"/>
+    </record>
+    <record id="product_asit_konsantrasyon_olcumu" model="product.template">
+        <field name="name">Asit Konsantrasyon Ölçümü</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('category_chemical_factors')])]"/>
     </record>
 
     <!-- Kimyasal Etkenler Alt Kategorisi Devamı -->
-    <record id="product_organik_bilesik_voc" model="product.template">
+    <!-- <record id="product_organik_bilesik_voc" model="product.template">
         <field name="name">Uçucu Organik Bileşik VOC Numune Alma ve Analiz</field>
         <field name="type">service</field>
         <field name="list_price">0.0</field>
@@ -436,27 +897,43 @@
         <field name="sale_ok">True</field>
         <field name="website_published">True</field>
         <field name="public_categ_ids" eval="[(6, 0, [ref('subcategory_acid_concentration')])]"/>
-    </record>
+    </record> -->
 
-    <!-- Mühendislik Hizmetleri Alt Kategorisi -->
-    <record id="product_explosion_protection_documentation" model="product.template">
-        <field name="name">Patlamadan Korunma Dokümantasyonu</field>
+    <!-- Tesisat Proje Değerlendirme Alt Kategorisi -->
+    <record id="product_yangin_tesisati_proje_degerlendirme" model="product.template">
+        <field name="name">Yangın Tesisatı Proje Değerlendirme</field>
         <field name="type">service</field>
         <field name="list_price">0.0</field>
         <field name="sale_ok">True</field>
         <field name="website_published">True</field>
-        <field name="public_categ_ids" eval="[(6, 0, [ref('category_explosion_protection')])]"/>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('category_installation_project_evaluation')])]"/>
     </record>
-    <record id="product_static_analysis" model="product.template">
-        <field name="name">Statik Analiz</field>
+    <record id="product_havalandirma_tesisati_proje_degerlendirme" model="product.template">
+        <field name="name">Havalandırma Tesisatı Proje Değerlendirme</field>
         <field name="type">service</field>
         <field name="list_price">0.0</field>
         <field name="sale_ok">True</field>
         <field name="website_published">True</field>
-        <field name="public_categ_ids" eval="[(6, 0, [ref('category_static_analysis')])]"/>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('category_installation_project_evaluation')])]"/>
     </record>
-    <record id="product_installation_project_evaluation" model="product.template">
-        <field name="name">Tesisat Proje Değerlendirme</field>
+    <record id="product_algilama_alarm_sistemleri_proje_degerlendirme" model="product.template">
+        <field name="name">Algılama Alarm Sistemleri Proje Değerlendirme</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('category_installation_project_evaluation')])]"/>
+    </record>
+    <record id="product_elektrik_tesisati_proje_degerlendirme" model="product.template">
+        <field name="name">Elektrik Tesisatı Proje Değerlendirme</field>
+        <field name="type">service</field>
+        <field name="list_price">0.0</field>
+        <field name="sale_ok">True</field>
+        <field name="website_published">True</field>
+        <field name="public_categ_ids" eval="[(6, 0, [ref('category_installation_project_evaluation')])]"/>
+    </record>
+    <record id="product_paratoner_tesisati_proje_degerlendirme" model="product.template">
+        <field name="name">Paratoner Tesisatı Proje Değerlendirme</field>
         <field name="type">service</field>
         <field name="list_price">0.0</field>
         <field name="sale_ok">True</field>
@@ -465,6 +942,6 @@
     </record>
 
 
-</odoo>
 
+</odoo>
 
