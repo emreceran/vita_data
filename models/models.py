@@ -16,11 +16,11 @@ class ProductTemplate(models.Model):
     faq_answer2 = fields.Html('Sıkça Sorulan Soru 2 Cevabı', sanitize_overridable=True, translate=True)
     faq_question3 = fields.Html('Sıkça Sorulan Soru 3', sanitize_overridable=True, translate=True)
     faq_answer3 = fields.Html('Sıkça Sorulan Soru 3 Cevabı', sanitize_overridable=True, translate=True)
-    img_2 = fields.Binary(
-        string="Detail Image",
-        attachment=True,
-        help="Extra image for the product"
-    )
+    img_2 = fields.Binary(string="Detail Image", attachment=True, help="Extra image for the product")
+       
+    
+        
+        
 
 
 
@@ -34,5 +34,5 @@ class ProductPublicCategory(models.Model):
 class ResUsers(models.Model):
     _inherit = 'res.users'
 
-    profilePage = fields.Char(string="Profil", default="-")
-    linkedin = fields.Char(string="Linkedin", default="-")
+    # profilePage = fields.Char(string="Profil", default="-")
+    # linkedin = fields.Char(string="Linkedin", default="-")
