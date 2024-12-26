@@ -29,4 +29,10 @@ class ProductPublicCategory(models.Model):
 
     website_description2 = fields.Html('Category Description2', sanitize_overridable=True, sanitize_attributes=False, translate=html_translate, sanitize_form=False)
 
-    
+
+
+class ResUsers(models.Model):
+    _inherit = 'res.users'
+
+    profile = fields.Char(string="Profil")
+    linkedin = fields.Char(string="Linkedin")
