@@ -34,5 +34,5 @@ class ProductPublicCategory(models.Model):
 class ResUsers(models.Model):
     _inherit = 'res.users'
 
-    profile = fields.Char(string="Profil", default="-")
+    profilePage = fields.Char(string="Profil", default="-")
     linkedin = fields.Char(string="Linkedin", default="-")
