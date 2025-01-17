@@ -1,4 +1,5 @@
 
+import random
 from odoo import models, fields
 from odoo.tools.translate import html_translate
 
@@ -18,6 +19,30 @@ class ProductTemplate(models.Model):
     faq_answer3 = fields.Html('Sıkça Sorulan Soru 3 Cevabı', sanitize_overridable=True, translate=True)
     img_2 = fields.Binary(string="Detail Image", attachment=True, help="Extra image for the product")
        
+    def get_random_products(self, current_product_id, limit=15):
+        """
+        Rastgele ürünler döndürür (mevcut ürünü ve aynı kategoridekileri hariç tutar).
+        """
+        current_product = self.browse(current_product_id)
+        if not current_product.exists():
+            return []
+
+        # Uygun ürünleri filtrele
+        all_products = self.search([
+            ('public_categ_ids', 'not in', current_product.public_categ_ids.ids),
+            ('id', '!=', current_product.id)
+        ])
+
+        # Eğer ürün sayısı limiti aşmıyorsa, tüm ürünleri döndür
+        if len(all_products) <= limit:
+            return all_products
+
+        # Rastgele ürünleri seç (sadece ID'leri kullanarak)
+        random_product_ids = random.sample(all_products.ids, limit)
+        
+        # Rastgele seçilen ID'leri bir recordset'e dönüştür
+        return self.browse(random_product_ids)
+
     
         
         
