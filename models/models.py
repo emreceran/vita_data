@@ -18,7 +18,8 @@ class ProductTemplate(models.Model):
     faq_question3 = fields.Html('Sıkça Sorulan Soru 3', sanitize_overridable=True, translate=True)
     faq_answer3 = fields.Html('Sıkça Sorulan Soru 3 Cevabı', sanitize_overridable=True, translate=True)
     img_2 = fields.Binary(string="Detail Image", attachment=True, help="Extra image for the product")
-       
+    snippet_isim_ustu = fields.Char(string='Snippet İsim Üstü')
+
     def get_random_products(self, current_product_id, limit=15):
         """
         Rastgele ürünler döndürür (mevcut ürünü ve aynı kategoridekileri hariç tutar).
